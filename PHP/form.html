@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Basic HTML 5</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="dcterms.rightsHolder" content="Name of Copyright Holder" />
+<meta name="dcterms.dateCopyrighted" content="2012" />
+<meta name="description" content="A short description of the page" />
+<meta name="keywords" content="keywords describing this page, most search engines 
+ignore this now due to abuse"/>
+</head>
+<body>
+<h1>Doug's Home Page involving guitars</h1>
+<form method="get" action="#">
+First Name: <input type="text" name="firstname" value><br>
+<br>
+Last Name: <input type="text" name="lastname" value><br>
+<br>
+Password: <input type="password" name="secret"><br>
+<br>
+<h4> Budget Range </h4>
+<input type="radio" name="q1" value="a">
+<=$100
+<br>
+<input type="radio" name="q1" value="b">
+<=$200
+<br>
+<input type="radio" name="q1" value="c">
+<=$300
+<br>
+<input type="radio" name="q1" value="d" checked="checked">
+<=$500 (recommended)
+<br>
+<input type="radio" name="q1" value="e">
+<=$1000
+<br>
+<input type="radio" name="q1" value="f">
+<=$2000
+<br>
+</br>
+<select name="guitarbrandchoice">
+	<option value>Choose a brand</option>
+		<optgroup label="Acoustic">
+			<option value="martin">Martin</option>
+			<option value="taylor">Taylor</option>
+			<option value="cordoba">Cordoba</option>
+		</optgroup>
+		<optgroup label="Electric">
+			<option value="fender">Fender</option>
+			<option value="gibson">Gibson</option>
+			<option value="jackson">Jackson</option>
+			<option value="dean">Dean</option>
+			<option value="schecter">Schecter</option>
+			<option value="esp">ESP</option>
+		</optgroup>
+	</select>
+	"
+	Are you interested in lessons?
+	"
+	<input type="checkbox" name="lessons" checked="checked">
+	</br>
+	<p> What are you looking for when you're shopping for guitars?</p>
+	<textarea name="commenthere" cols="40" rows="20">
+	</textarea>
+	<input type="submit" name="submitted" value="Send Form">
+</form>
+
+
+<div id="validator">
+<a href="http://validator.w3.org/nu/?doc=https://nbtl.mesacc.edu/username/directories/filename.html">
+HTML 5 Validation</a>
+</div>
+</body>
+</html>

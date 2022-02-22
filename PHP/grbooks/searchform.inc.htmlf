@@ -1,0 +1,12 @@
+
+<form method="get" action="#">
+<input type="text" name="searchterm">
+<input type="hidden" name="command" value="runsearch">
+<select name="searchtype">
+<option value="byauthor">By Author</option>
+<option value="bytitle">By Title</option>
+<option value="byyear">By Year</option>
+</select>
+</br>
+<input type="submit" name="submitted" value="Display Results"/>
+</form>

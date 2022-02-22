@@ -1,0 +1,12 @@
+
+<form method="get" action="#">
+<select name="command">
+<option value="">Choose Command</option>
+<option value="search">Find a book</option>
+<option value="newuser">Create a new user</option>
+<option value="loginform">Login Existing Account</option>
+<option value="addbooks">Add a New Book</option>
+</select>
+</br>
+<input type="submit" name="submitted" value="Run Command"/>
+</form>
